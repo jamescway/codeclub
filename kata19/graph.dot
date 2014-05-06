@@ -1,0 +1,95 @@
+subgraph RGL__AdjacencyGraph {
+    cat [
+        fontsize = 8,
+        label = cat
+    ]
+
+    cot [
+        fontsize = 8,
+        label = cot
+    ]
+
+    cog [
+        fontsize = 8,
+        label = cog
+    ]
+
+    cop [
+        fontsize = 8,
+        label = cop
+    ]
+
+    phone [
+        fontsize = 8,
+        label = phone
+    ]
+
+    dog [
+        fontsize = 8,
+        label = dog
+    ]
+
+    poe [
+        fontsize = 8,
+        label = poe
+    ]
+
+    dig [
+        fontsize = 8,
+        label = dig
+    ]
+
+    did [
+        fontsize = 8,
+        label = did
+    ]
+
+    dip [
+        fontsize = 8,
+        label = dip
+    ]
+
+    cat -- cot [
+        fontsize = 8
+    ]
+
+    cot -- cog [
+        fontsize = 8
+    ]
+
+    cot -- cop [
+        fontsize = 8
+    ]
+
+    cog -- cop [
+        fontsize = 8
+    ]
+
+    cog -- dog [
+        fontsize = 8
+    ]
+
+    cop -- poe [
+        fontsize = 8
+    ]
+
+    dog -- dig [
+        fontsize = 8
+    ]
+
+    dog -- did [
+        fontsize = 8
+    ]
+
+    dig -- dip [
+        fontsize = 8
+    ]
+
+    dig -- did [
+        fontsize = 8
+    ]
+
+    did -- dip [
+        fontsize = 8
+    ]
+}

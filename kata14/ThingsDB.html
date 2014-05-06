@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://localhost:3000/servers/1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ThingsDB</title>
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/application.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/dataTables/jquery.dataTables.bootstrap.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/baseimages.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/custom.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/dc_racks.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/environments.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/events.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/fsconfigs.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/hardware_types.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/interfaces.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/pages.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/pdus.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/roles.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/scaffolds.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/servers.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/silos.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/sites.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/storages.css?body=1" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="http://localhost:3000/assets/switches.css?body=1" media="all" rel="stylesheet">
+    <script data-turbolinks-track="true" src="./ThingsDB_files/jquery.js"></script>
+<script src="./ThingsDB_files/xray.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/jquery_ujs.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/jquery.dataTables.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/jquery.dataTables.bootstrap.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/baseimages.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/dc_racks.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/environments.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/events.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/fsconfigs.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/hardware_types.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/interfaces.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/livecss.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/pages.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/pdus.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/roles.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/servers.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/silos.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/sites.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/storages.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/switches.js"></script>
+    <script data-turbolinks-track="true" src="./ThingsDB_files/application.js"></script>
+    <meta content="authenticity_token" name="csrf-param">
+    <meta content="t2H/q/BHS6VNt8O75v1ufDgdicS0NryfzJxE4NZnKMg=" name="csrf-token">
+  </head>
+  <body>
+
+<!-- XRAY BAR -->
+
+<div id="xray-bar" style="display: none; z-index: 2147483647;">
+    <div id="xray-bar-controller-path">
+        <span class="xray-bar-btn xray-bar-controller xray-icon-flash" data-path="/Users/jway/code/new/thingsdb/app/controllers/servers_controller.rb">
+          <b></b>
+          ServersController<span class="xray-bar-controller-action">#show</span>
+        </span>
+        <span class="xray-bar-btn xray-bar-layout xray-icon-columns" data-path="/Users/jway/code/new/thingsdb/app/views/layouts/application.html.haml">
+          <b></b>
+          application.html.haml
+        </span>
+        <span class="xray-bar-btn xray-bar-view xray-icon-doc" data-path="/Users/jway/code/new/thingsdb/app/views/servers/show.html.haml">
+          show.html.haml
+        </span>
+    </div>
+  <div id="xray-bar-togglers">
+    <span class="xray-bar-btn xray-bar-all-toggler xray-icon-search"></span>
+    <span class="xray-bar-btn xray-bar-templates-toggler">
+      templates
+    </span>
+    <span class="xray-bar-btn xray-bar-views-toggler">
+      views
+    </span>
+  </div>
+  <span class="xray-bar-settings-btn xray-icon-cog"></span>
+  <div id="xray-settings" style="display:none">
+    <form>
+      <label for="xray-editor-input">Editor</label>
+      <input id="xray-editor-input" type="text" value="/usr/local/bin/subl">
+      <button type="submit">Save</button>
+      <p>Settings are saved to ~/.xrayconfig</p>
+  </form>
+  </div>
+  <link href="http://localhost:3000/assets/xray.css?body=1" media="screen" rel="stylesheet">
+</div>
+
+<!-- /XRAY BAR -->
+
+  
+  <header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <a href="./ThingsDB_files/ThingsDB.html"><img alt="Global" height="30" id="icon" src="./ThingsDB_files/global.png" width="30"></a>
+      <a href="http://localhost:3000/" id="logo">Things_DB</a>
+      <nav>
+        <ul class="nav pull-right">
+          <li><a href="http://localhost:3000/users/edit">james.way@lookout.com</a></li>
+          <li><a data-method="delete" href="http://localhost:3000/users/sign_out" rel="nofollow">Sign out</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span2 span2_smaller_width">
+        <div class="sidebar-nav">
+          <ul class="nav nav-list well">
+            <li class="nav-header">Navigation</li>
+            <li class="divider"></li>
+            <li><a href="http://localhost:3000/servers">Servers</a></li>
+            <li><a href="http://localhost:3000/switches">Switches</a></li>
+            <li><a href="http://localhost:3000/sites">Sites</a></li>
+            <li><a href="http://localhost:3000/dc_racks">Racks</a></li>
+            <li><a href="http://localhost:3000/hardware_types">Hardware Types</a></li>
+            <li><a href="http://localhost:3000/pdus">PDUs</a></li>
+            <li><a href="http://localhost:3000/roles">Roles</a></li>
+            <li><a href="http://localhost:3000/base_images">Base Images</a></li>
+            <li><a href="http://localhost:3000/fsconfigs">FS Configs</a></li>
+            <li><a href="http://localhost:3000/interfaces">Interfaces</a></li>
+            <li><a href="http://localhost:3000/storages">Storages</a></li>
+            <li><a href="http://localhost:3000/silos">Silos</a></li>
+            <li><a href="http://localhost:3000/environments">Environments</a></li>
+            <li><a href="http://localhost:3000/events">Events</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="span10">
+        
+        <p id="notice"></p>
+        <table class="show table-striped">
+          <tbody><tr>
+            <td>
+              <b>Hostname:</b>
+            </td>
+            <td>c2r010s004</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Description:</b>
+            </td>
+            <td>description 1</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Created at:</b>
+            </td>
+            <td>2013-06-27 20:52:17 UTC</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Active:</b>
+            </td>
+            <td>true</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Monitor:</b>
+            </td>
+            <td>true</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Rack:</b>
+              </td><td><a href="http://localhost:3000/dc_racks/1">dc_rack1</a></td>
+            
+          </tr>
+          <tr>
+            <td>
+              <b>Rack unit:</b>
+            </td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>
+              <b>PDU socket:</b>
+            </td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>
+              <b>State:</b>
+            </td>
+            <td>maintenance</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Class:</b>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Role:</b>
+            </td>
+            <td><a href="http://localhost:3000/roles/1">role1</a></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Dell service code:</b>
+            </td>
+            <td>dell_service_tag1</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Dell express code:</b>
+            </td>
+            <td>express1</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Vendor:</b>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <b>FS Config:</b>
+            </td>
+            <td><a href="http://localhost:3000/fsconfigs/1">fsconfig-host1</a></td>
+          </tr>
+          <tr>
+            <td>
+              <b><img alt="Global" class="text-icon pos3" height="10" src="./ThingsDB_files/global.png" width="10">PO #:</b>
+            </td>
+            <td>lookout_po_num1</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Dell PO #:</b>
+            </td>
+            <td>dell_po_num1</td>
+          </tr>
+          <tr>
+            <td>
+              <b>BCT quote #:</b>
+            </td>
+            <td>bct_quote_num1</td>
+          </tr>
+          <tr>
+            <td>
+              <b><img alt="Global" class="text-icon pos3" height="10" src="./ThingsDB_files/global.png" width="10">Asset #:</b>
+            </td>
+            <td>LOasset_num1</td>
+          </tr>
+          <tr>
+            <td>
+              <b>PDU:</b>
+            </td>
+            <td><a href="http://localhost:3000/pdus/"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Base image:</b>
+            </td>
+            <td><a href="http://localhost:3000/base_images/1">base_image1</a></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Hardware type:</b>
+            </td>
+            <td><a href="http://localhost:3000/hardware_types/"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Parent Server:</b>
+            </td>
+            <td><a href="http://localhost:3000/servers/"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Is Container:</b>
+            </td>
+            <td>false</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Child Servers:</b>
+            </td>
+            <td>
+              <i>-none-</i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Slots:</b>
+            </td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Date received:</b>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Date deployed:</b>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Silo:</b>
+            </td>
+            <td><a href="http://localhost:3000/silos/"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Environment:</b>
+            </td>
+            <td><a href="http://localhost:3000/environments/"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Run list:</b>
+            </td>
+            <td><p>role[this], role[that]</p></td>
+          </tr>
+          <tr>
+            <td>
+              <b>Interfaces:</b>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Storages:</b>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Internal Servers:</b>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Notes:</b>
+            </td>
+            <td><p></p></td>
+          </tr>
+        </tbody></table>
+        <a class="btn" href="http://localhost:3000/servers/1/edit"><i class="icon-edit"></i> Edit</a>
+        <a class="btn" href="http://localhost:3000/servers">List</a>
+        <hr>
+        <h2>
+          History
+        </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Change date</th>
+              <th style="width: 500px">Field</th>
+              <th>Jira</th>
+            </tr>
+            <tr class="history">
+              <th></th>
+              <th>
+                <table class="inner_table" style="width:100%">
+                  <tbody><tr>
+                    <th>Field Changed</th>
+                    <th>Before</th>
+                    <th>After</th>
+                  </tr>
+                </tbody></table>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="history">
+              <td>
+                2013-06-27 21:00:50 UTC
+              </td>
+              <td>
+                <table class="inner_table" style="width:100%">
+                  <tbody><tr>
+                    <td class="history">
+                      cname
+                    </td>
+                    <td class="history">
+                      cname11
+                    </td>
+                    <td class="history">
+                      cname113
+                    </td>
+                  </tr>
+                </tbody></table>
+                <table class="inner_table" style="width:100%">
+                  <tbody><tr>
+                    <td class="history">
+                      updated_at
+                    </td>
+                    <td class="history">
+                      2013-06-27T20:57:55.000Z
+                    </td>
+                    <td class="history">
+                      2013-06-27T21:00:50.567Z
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td>
+                
+              </td>
+            </tr>
+            <tr class="history">
+              <td>
+                2013-06-27 21:12:29 UTC
+              </td>
+              <td>
+                <table class="inner_table" style="width:100%">
+                  <tbody><tr>
+                    <td class="history">
+                      hostname
+                    </td>
+                    <td class="history">
+                      host1
+                    </td>
+                    <td class="history">
+                      c2r010s004
+                    </td>
+                  </tr>
+                </tbody></table>
+                <table class="inner_table" style="width:100%">
+                  <tbody><tr>
+                    <td class="history">
+                      rack_unit
+                    </td>
+                    <td class="history">
+                      
+                    </td>
+                    <td class="history">
+                      4
+                    </td>
+                  </tr>
+                </tbody></table>
+                <table class="inner_table" style="width:100%">
+                  <tbody><tr>
+                    <td class="history">
+                      updated_at
+                    </td>
+                    <td class="history">
+                      2013-06-27T21:00:50.000Z
+                    </td>
+                    <td class="history">
+                      2013-06-27T21:12:29.310Z
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+              <td>
+                
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+        
+      </div>
+    </div>
+    
+    
+    
+    <pre class="debug_dump">--- !ruby/hash:ActionController::Parameters
+action: show
+controller: servers
+id: '1'
+</pre>
+  </div>
+
+
+<!--XRAY END 352--></body></html>

@@ -1,0 +1,10 @@
+To generate new text from this analysis, choose an arbitrary
+word pair as a starting point. Use these to look up a random
+next word (using the table above) and append this new word to
+the text so far.
+
+This now gives you a new word pair at the end
+of the text, so look up a potential next word based on these.
+Add this to the list, and so on. In the previous example, we
+could start with "I may". The only possible next word is "I",
+so now we have:

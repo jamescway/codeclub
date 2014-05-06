@@ -1,0 +1,24 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    columnize (0.3.6)
+    debugger (1.6.1)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.3)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.3)
+    rake (10.1.0)
+    rgl (0.4.0)
+      rake
+      stream (>= 0.5)
+    ruby-graphviz (1.0.9)
+    stream (0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  debugger
+  rgl
+  ruby-graphviz

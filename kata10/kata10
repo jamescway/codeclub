@@ -1,0 +1,25 @@
+* One class per table covers basic cases
+* what about derived columns based on columns from > 2 tables
+* flexibility, maybe a rules file that can be read
+
+
+Class Method
+------------
+  -one class per table
+  -higher level classes for derived data involving > 2 tables
+  -input mechanism to allow for custom rules
+    -class stores custom cols derived from existing cols
+      net_revenue = Item.price * State.tax_rate
+
+
+  1. feed in list of output
+    -native cols
+    -derived cols, based on existing cols + operation
+
+  2. loaded into controller class, which creates output list
+    -assembles Table.col
+    -assembles Derived + operations
+
+
+Hash method
+------------

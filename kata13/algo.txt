@@ -1,0 +1,22 @@
+LOC
+
+  - inside of strings are ignored  " to " or ' to '
+    - // in the front after strip
+    - /* to */
+
+
+    use cases
+    1. line.strip starts with //
+    2. /* */
+      a. covers entire line
+        -may start on a line (not counted) and finish on a not counted line
+         in between is counted
+      b. if it not terminated, the lines end up getting counted
+            /*  asdf
+                adsfsdfa
+                 asfdasdfasfd
+            // some comment
+           ==> 2 lines of code
+
+
+
